@@ -1,0 +1,31 @@
+:root {
+  --primary-color: #6b8068;
+  --primary-hover-color: #2c463f;
+}
+
+/* Override Bootstrap's primary color */
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: var(--primary-hover-color) !important;
+  border-color: var(--primary-hover-color) !important;
+}
+
+.link-primary {
+  color: var(--primary-color) !important;
+}
+
+.link-primary:hover {
+  color: var(--primary-hover-color) !important;
+}
